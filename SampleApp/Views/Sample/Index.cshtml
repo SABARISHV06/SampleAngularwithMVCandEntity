@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angularjs popup</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/ui-bootstrap-tpls-0.14.3.min.js"></script>
+    <script src="~/Scripts/App.js"></script>
+</head>
+<body ng-app="PopupDemo">
+    <div ng-controller="PopupDemoCont">
+        <h2 class="text-center">Angularjs-Popup</h2>
+        <button ng-click="open('John')" class="btn btn-warning">Popup with parameter</button>
+    </div>
+</body>
+</html>
+
